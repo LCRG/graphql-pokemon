@@ -1,0 +1,28 @@
+{
+  "name": "graphql-pokemon",
+  "version": "1.0.0",
+  "description": "Sample graphql server and db using a Pokemon API for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --no-notify --respawn --transpileOnly ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LCRG/graphql-pokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LCRG/graphql-pokemon/issues"
+  },
+  "homepage": "https://github.com/LCRG/graphql-pokemon#readme",
+  "dependencies": {
+    "graphql": "^14.2.1",
+    "graphql-request": "^1.8.2",
+    "graphql-yoga": "^1.17.4",
+    "nexus": "^0.11.6",
+    "nexus-prisma": "^0.3.5",
+    "prisma-client-lib": "^1.29.2"
+  }
+}

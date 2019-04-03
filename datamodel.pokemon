@@ -1,0 +1,14 @@
+type Trainer {
+  id: ID! @unique
+  name: String!
+  pokemon: [Pokemon!]!
+}
+
+type Pokemon {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String
+  url: String
+  trainer: Trainer
+}
