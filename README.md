@@ -1,5 +1,5 @@
 # A GraphQL Pokemon practice server
-Sample graphql server and db using a simple Pokemon API for learning purposes
+Sample graphql server and db using a simple Pokemon API for learning purposes.  You will need Node, NPM, and Docker installed.
 
 Start with this Prisma set up guide: 
 https://www.prisma.io/docs/get-started/01-setting-up-prisma-new-database-JAVASCRIPT-a002/
