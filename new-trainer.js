@@ -11,7 +11,7 @@ async function main() {
         create: [{
           name: "Pikachu",
         }, {
-          name: "Squirtle",
+          name: "Snorlax",
         }]
       },
     })
